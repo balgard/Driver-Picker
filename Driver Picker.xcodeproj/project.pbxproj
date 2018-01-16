@@ -12,6 +12,7 @@
 		3F6E6C182007DDD900984A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E6C162007DDD900984A79 /* Main.storyboard */; };
 		3F6E6C1A2007DDD900984A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E6C192007DDD900984A79 /* Assets.xcassets */; };
 		3F6E6C1D2007DDD900984A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E6C1B2007DDD900984A79 /* LaunchScreen.storyboard */; };
+		3F84B780200E782D009AE95D /* StudentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B77F200E782D009AE95D /* StudentCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3F6E6C192007DDD900984A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6E6C1C2007DDD900984A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6E6C1E2007DDD900984A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F84B77F200E782D009AE95D /* StudentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3F6E6C122007DDD900984A79 /* AppDelegate.swift */,
 				3F6E6C142007DDD900984A79 /* ViewController.swift */,
 				3F6E6C162007DDD900984A79 /* Main.storyboard */,
+				3F84B77F200E782D009AE95D /* StudentCollectionViewCell.swift */,
 				3F6E6C192007DDD900984A79 /* Assets.xcassets */,
 				3F6E6C1B2007DDD900984A79 /* LaunchScreen.storyboard */,
 				3F6E6C1E2007DDD900984A79 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6E6C152007DDD900984A79 /* ViewController.swift in Sources */,
+				3F84B780200E782D009AE95D /* StudentCollectionViewCell.swift in Sources */,
 				3F6E6C132007DDD900984A79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
