@@ -8,7 +8,21 @@
 
 import UIKit
 
-class StudentCollectionViewCell: UICollectionViewCell {
+class StudentCollectionViewCell: UICollectionViewCell, UICollectionViewDataSource, UICollectionViewDelegate
+{
+    //let reuseIdentifier = "cell"
+
+    
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
     
     
 }
