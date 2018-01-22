@@ -8,12 +8,14 @@
 
 import UIKit
 
-class GridViewController: UIViewController
+class GridViewController:UIViewController
 {
     //Empty array of names to be filled on segue through realm
     
     var students = [String]()
 
+    
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -27,14 +29,6 @@ class GridViewController: UIViewController
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }
