@@ -15,6 +15,13 @@ class GridViewController:UIViewController
     var students = [String]()
      @IBOutlet weak var myLabel: UILabel!
      let reuseIdentifier = "cell"
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
     {
         // handle tap events
@@ -24,18 +31,9 @@ class GridViewController:UIViewController
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! GridViewController
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! GridViewController
         cell.myLabel.text = self.students[indexPath.item]
-    }
-    
-    
-    
-    
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
   

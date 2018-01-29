@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2F53CB201F99E50010FDBB /* ClassesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F53CA201F99E50010FDBB /* ClassesTableViewController.swift */; };
 		3F5F1B3320111E01003489C7 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F1B3220111E01003489C7 /* GridViewController.swift */; };
 		3F6E6C132007DDD900984A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6C122007DDD900984A79 /* AppDelegate.swift */; };
 		3F6E6C152007DDD900984A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6C142007DDD900984A79 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2F53CA201F99E50010FDBB /* ClassesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewController.swift; sourceTree = "<group>"; };
 		3F5F1B3220111E01003489C7 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		3F6E6C0F2007DDD900984A79 /* Driver Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Driver Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6E6C122007DDD900984A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3F6E6C122007DDD900984A79 /* AppDelegate.swift */,
 				3F6E6C142007DDD900984A79 /* ViewController.swift */,
 				3F6E6C162007DDD900984A79 /* Main.storyboard */,
+				3F2F53CA201F99E50010FDBB /* ClassesTableViewController.swift */,
 				3F5F1B3220111E01003489C7 /* GridViewController.swift */,
 				3F84B77F200E782D009AE95D /* StudentCollectionViewCell.swift */,
 				3F6E6C192007DDD900984A79 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2F53CB201F99E50010FDBB /* ClassesTableViewController.swift in Sources */,
 				3F5F1B3320111E01003489C7 /* GridViewController.swift in Sources */,
 				3F6E6C152007DDD900984A79 /* ViewController.swift in Sources */,
 				3F84B780200E782D009AE95D /* StudentCollectionViewCell.swift in Sources */,
